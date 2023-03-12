@@ -14,7 +14,7 @@ Basta descompactar os arquivos em um pasta desejada,
 e configurar seu navegador para abrir no início da aplicação,
 ou na abertura de uma nova aba.
 
-Caso deseje instanciar em um servidor apache, cole os arquivos
+Caso deseje instânciar em um servidor apache, cole os arquivos
 na pasta designada na configuração e configure no navegador
 passando url do servidor.
 
