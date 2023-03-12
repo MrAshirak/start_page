@@ -1,0 +1,72 @@
+body{
+  background-image:url('./img/background.png');
+  width:100%;
+}
+
+#weather{
+  color:#fff;
+  margin 10px 0 0 5 ;
+}
+
+.card, ul,li {
+  background:rgba(0,0,0,0.0) !important;
+  border-color:rgba(0,0,0,0.0) !important;
+  higth: 50px;
+}
+
+.list-group-item{
+  color:#fff !important;
+}
+
+.mt-19{
+  margin-top: 12rem !important;}
+
+.px-10{
+  padding: 0 20rem 0 20rem !important;
+}
+
+.row{
+  text-align:center;
+}
+
+#hour{
+  color:#fff;
+  font-size:37pt;
+  position: relative;
+  margin: 5% auto 0 45%;
+}
+
+
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: #000 !important;
+   border-color: #000
+}
+
+.btn-primary:hover{
+  background-color:#fff !important;
+  color:#000 !important;
+  border-color: #fff !important;
+}
+
+@media (max-width: 1040px){
+  
+  #inputSearch{
+    position:fixed;
+  }
+ 
+  .px-10{
+    padding: 0 2rem 0 2rem  !important;
+  }
+}
+
+@media only screen and (max-width: 600px)
+{
+  .px-10{
+    padding: 0 4rem 0 4rem !important;
+  }
+  #hour{
+    font-size:27pt;
+    margin: 5% auto 0 35%;
+  }
+  
+}
