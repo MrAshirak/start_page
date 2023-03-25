@@ -30,7 +30,7 @@ function startTime() {
 }
 
 startTime();
-weather("Londrina");
+weather("Sao Paulo");
 })
 
 $('form').submit(function(e){
