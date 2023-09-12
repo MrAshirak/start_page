@@ -72,7 +72,7 @@ function submitSearch(){
     window.location.href = seeker_method+stringSearch
     return;
   }
-  window.location.href = seekers['librex']+stringSearch;
+  window.location.href = seekers['duck']+stringSearch;
   
 }
 
